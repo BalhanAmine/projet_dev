@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script');
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: black;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 70px;
+    max-width: 100%;
+    height: auto;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ffd700; 
+}
+
+.header-icons {
+    display: flex;
+    align-items: center;
+}
+
+.login-icon,
+.cart-icon {
+    margin-right: 10px;
+}
+
+.login-icon img,
+.cart-icon img {
+    width: 30px; 
+    border-radius: 50%;
+}
+
+.login-icon :hover{
+  width: 40px; 
+  border-radius: 50%;
+}
+
+.cart-icon :hover{
+    width: 40px; 
+    border-radius: 50%;
+}
+
+
+.cta-button {
+    display: flex;
+    align-items: center;
+}
+
+.button {
+    background-color: #ffd700;
+    color: #333;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #52104d; 
+    color: #ffd700;
+}
+
+
+
+
+/*slogan mosification*/
+.slogan{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 50px 0;
+    background-image: url("img/bg2.jpg") ;
+    background-size: cover;
+    color: yellow;
+   
+    
+}
+.content{
+    text-align: center;
+    padding: 20px 20px;
+ 
+}
+
+.slogtitle{
+  font-family: 'Dancing Script', cursive;
+  font-size: 60px;
+  font-weight: 900;
+}
+
+.slogdis{ 
+  font-family: 'Dancing Script', cursive;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+
+
+/* Pic and Aside Section */
+.pic-and-aside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background-color: #ffd700;
+  }
+  
+  .pic-container {
+    flex: 1;
+  }
+  
+  .pic-container img {
+    max-width: 100%;
+  }
+  
+  .aside-text {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .aside-text h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .aside-text p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .aside-text .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffd700;
+    color: #52104d;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 16px;
+    border:solid 2px #52104d ;
+  }
+  
+  .aside-text .button:hover {
+    background-color: #52104d; 
+    color: #ffd700;
+  }
+  
+
+
+/*section*/
+
+.clothes-container {
+    display: none;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.clothes-img {
+    width: 300px;
+    height: 450px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    cursor: pointer;
+    padding: 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    margin: 0;
+}
+
+.item-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.item-container p{
+  font-weight: 900;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.line-through{
+  font-weight: 900;
+  text-decoration: line-through;
+}
+
+/*footer*/
+
+footer {
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-section aside {
+  background-color: #f2f2f2;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#reviews-container {
+  margin-bottom: 20px;
+}
+
+#add-review-form {
+  max-width: 400px;
+  margin-top: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 10px;
+}
+
+button {
+  margin-top: 10px;
+}
+
+
+footer p {
+  margin: 0;
+}
+
+.contact-info {
+  margin-top: 10px;
+}
+
+.logo {
+  width: 99px;
+  margin-bottom: 10px;
+}
+
+.social-links {
+  margin-top: 15px;
+}
+
+.social-icon {
+  width: 30px; 
+  height: 30px;
+  margin: 0 10px;
+}
+
+::selection{
+    background-color: #ffd700;
+    color: #333;
+}
+
+
+/*authentification stylesheet */
+.bodybox {
+  background-image: url("img/bg.png");
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.box {
+  width: 500px;
+  padding: 20px;
+  border: 1px solid #52104d;
+  border-radius: 20px;
+  background-color: #52104d;
+  color: white;
+
+}
+
+input[type="text"],
+input[type="password"] {
+  font-weight: 900;
+  padding: 8px;
+  box-sizing: border-box;
+  background-color: black;
+  border-radius: 100px;
+  width: 300px; 
+  margin: 10px auto; 
+  color: white;
+}
+/*
+input[type="text"]:hover {
+  background-color: #ffd700;
+}*/
+input[type="submit"],
+input[type="reset"] {
+  font-weight: 900;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-top: 10px;
+  background-color: #ffd700;
+  border-radius: 100px;
+  width: 200px; 
+  display: block; 
+  margin: 10px auto;
+}
+
+.authimg {
+  display: block;
+  margin: 0 auto;
+  width: 50px; 
+}
+
+table {
+  margin: auto;
+}
+
